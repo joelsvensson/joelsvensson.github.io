@@ -1,0 +1,22 @@
+---
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]
+
+permissions: {}
+
+jobs:
+  pelican:
+    #uses: "getpelican/pelican/.github/workflows/github_pages.yml@main"
+    uses: "joelsvensson/pelican/.github/workflows/github_pages.yml@github_workflow-stork_search"
+    permissions:
+      contents: "read"
+      pages: "write"
+      id-token: "write"
+    with:
+      settings: "publishconf.py"
+      requirements: "-r requirements.txt"
+      theme: "https://github.com/alexandrevicenzi/Flex.git"
+      stork: true

@@ -1,0 +1,5 @@
+pelican[markdown]
+pelican-neighbors
+pelican-search
+pelican-sitemap
+pelican-yaml-metadata

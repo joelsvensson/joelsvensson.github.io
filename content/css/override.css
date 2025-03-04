@@ -1,0 +1,18 @@
+/* Import and use Work Sans font as default */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+body {
+  font-family: "Work Sans", serif;
+  font-weight: 400; /* Regular */
+  font-style: normal; /* non-italic/roman */
+}
+
+/* Remove the flex theme default lowercase transform on the left side menu */
+aside nav ul li {
+  text-transform: none;
+}
+
+/* Make the search field less wide on the left side menu (100% as default) */
+.stork .stork-input {
+  width: 75%;
+}

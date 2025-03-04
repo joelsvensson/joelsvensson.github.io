@@ -1,0 +1,15 @@
+[project]
+name = "joelsvensson.github.io"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "pelican[markdown]>=4.10.2",
+    "pelican-neighbors>=1.2.0",
+    "pelican-search>=1.1.0",
+    "pelican-sitemap>=1.2.0",
+    "pelican-yaml-metadata>=2.1.2",
+]
+
+[tool.poetry]
+package-mode = false

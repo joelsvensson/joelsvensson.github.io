@@ -1,0 +1,11 @@
+# Poetry
+poetry.lock
+
+# Pelican output
+output/
+
+# git submodules
+themes/Flex
+
+# Python-generated files
+__pycache__/
