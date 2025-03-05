@@ -17,7 +17,8 @@ SITESUBTITLE = "Joel Svensson, 0703 20 13 13"
 # https://developers.google.com/search/docs/appearance/snippet#meta-descriptions
 # SITEDESCRIPTION = "TEST-SITEDESCRIPTION"
 
-SITELOGO = "/images/joel.jpg"
+SITELOGO = f"{SITEURL}/images/joel.jpg"
+FAVICON = f"{SITEURL}/favicon.svg"
 
 PATH = "content"
 ARTICLE_PATHS = ["blogposts"]
@@ -37,6 +38,7 @@ STATIC_PATHS = [
     "CNAME",
     "css",
     "images",
+    "favicon.svg",
 ]
 
 # Feed generation is usually not desired when developing

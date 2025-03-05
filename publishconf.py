@@ -15,3 +15,6 @@ from pelicanconf import *  # pylint: disable=wildcard-import,unused-wildcard-imp
 SITEURL = "https://mgio.se"
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 RELATIVE_URLS = False
+
+SITELOGO = f"{SITEURL}/images/joel.jpg"
+FAVICON = f"{SITEURL}/favicon.svg"
