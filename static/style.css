@@ -1,0 +1,17 @@
+/* Import and use Work Sans font as default */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+/* Default font for body */
+body {
+  font-family: "Work Sans", serif !important;
+}
+
+/* Decrease the first section height from 100 */
+#hero {
+  min-height: 10vh;
+}
+
+/* Decrease the social row height from 50 */
+#hero a.btn.social-icon {
+  margin-top: 1px;
+}

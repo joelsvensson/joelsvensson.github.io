@@ -1,0 +1,7 @@
+# hugo
+public/
+resources/
+.hugo_build.lock
+
+# git submodules
+themes/hugo-profile
