@@ -194,7 +194,7 @@ params:
   terms:
     read: "Read"
     toc: "Table Of Contents"
-    copyright: "All rights reserved"
+    copyright: " - mgio AB - Org: 559126-9971" # Use this to show org number in footer
     pageNotFound: "Page not found"
     emailText: "Check out this site"
 
