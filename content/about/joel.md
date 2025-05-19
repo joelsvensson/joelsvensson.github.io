@@ -15,7 +15,7 @@ Expertis inom infrastruktur och nätverk
 Bakgrund inom Cloud, IoT och Telekom  
 Hobbyintresse av elektronik
 
-Erfarenhet av planering, design, implementation, inköp och kunddialog.
+Erfarenhet av planering, design, implementation, felsökning, dokumentation, inköp och kunddialog.
 
 Lite mer specifikt:
 
@@ -23,13 +23,16 @@ Lite mer specifikt:
   - _Datacenter co-lo_
   - _Fysisk säkerhet_
   - _Kablering_
-  - _Servrar_
+  - _Servrar och lagring_
+  - _Asset mgmt_
 - _Fysisk installation_
 - _Nätverk_
   - _Datacenter (EVPN)_
   - _Corenät (MPLS)_
+  - _Brandväggar_
   - _Fiber och våglängdsutrustning_
-- _Virtuella nätverk (openstack)_
+  - _FTTH (stadsnät)_
+- _Virtuella nätverk (openstack/OVS/OVN)_
 - _Ansible-automation_
   - _Servrar (BMC/iDRAC/redfish)_
   - _Nätverk (Cisco NX-OS+IOS-XR)_
