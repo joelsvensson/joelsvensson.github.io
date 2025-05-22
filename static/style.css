@@ -8,7 +8,7 @@ body {
 
 /* Decrease section padding from 3rem */
 .py-5 {
-  padding-top: 0rem !important;
+  padding-top: 0 !important;
   padding-bottom: 2rem !important;
 }
 
