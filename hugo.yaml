@@ -128,13 +128,13 @@ params:
       enable: true
       showOnScrollUp: true
     enableSeparator: false
-    # menus:
-    #   disableAbout: true
-    #   disableExperience: true
-    #   disableEducation: true
-    #   disableProjects: true
-    #   disableAchievements: true
-    #   disableContact: true
+    menus:
+      disableAbout: true
+      disableExperience: true
+      disableEducation: false
+      disableProjects: true
+      disableAchievements: true
+      disableContact: true
 
   # Hero
   hero:
@@ -166,6 +166,39 @@ params:
           url: https://www.linkedin.com/in/joel-svensson-5ba45615
         - icon: fas fa-rss
           url: /index.xml
+
+  # Education
+  education:
+    enable: true
+    title: "Tjänster"
+    index: false
+    items:
+      - title: "Nätverksdesign & Lösningsarkitektur"
+        content: >-
+          _System växer ofta fram stegvis över tid när flertalet leverantörer
+          adderar i separata projekt, vilket ofta resulterar i
+          komplexa, fragmenterade och svårförvaltade miljöer._<br>
+          <br>Jag hjälper er att skapa en modern och hållbar nätverksarkitektur som
+          tar hänsyn till verksamhetens behov, framtida tillväxt och säkerhet.
+          Oavsett om ni bygger nytt eller vill strukturera om befintliga delar.
+      - title: "Konfiguration & Testning"
+        content: >-
+          _Alla lösningar fungerar bra i teorin – tills de möter verkligheten._<br>
+          <br>Jag hjälper dig att välja rätt produkter, verifierar funktionalitet
+          och ser till att installationen är korrekt konfigurerad från start.
+          Det minimerar risker och skapar en stabil grund för drift.
+      - title: "Audit och dokumentation"
+        content: >-
+          _För att kunna förbättra behöver man veta vad man har._<br>
+          <br>Jag gör en grundlig genomgång av din miljö: fysisk inventering,
+          analys av livscykelstatus, konfigurationsgranskning och trafikanalys.
+          Resultatet blir en tydlig nulägesbild – ett viktigt beslutsunderlag
+          för framtida förändringar.
+      - title: "Felsökning"
+        content: >-
+          _Problem med ett befintligt system?_<br>
+          <br>Jag går till botten med nätverksrelaterade
+          fel och ser till att du får en lösning – inte bara en tillfällig åtgärd.
 
   footer:
     recentPosts:

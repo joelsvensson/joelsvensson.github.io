@@ -6,12 +6,23 @@ body {
   font-family: "Work Sans", serif !important;
 }
 
+/* Decrease section padding from 3rem */
+.py-5 {
+  padding-top: 0rem !important;
+  padding-bottom: 2rem !important;
+}
+
 /* Decrease the first section height from 100 */
 #hero {
-  min-height: 10vh;
+  min-height: 10vh !important;
 }
 
 /* Decrease the social row height from 50 */
 #hero a.btn.social-icon {
-  margin-top: 1px;
+  margin-top: 1px !important;
+}
+
+/* Bold font in "tjänster" title */
+#education .card-title {
+  font-weight: bold !important;
 }
