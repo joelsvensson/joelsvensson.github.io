@@ -2,7 +2,7 @@
 title: Om Joel
 slug: joel
 date: 2025-02-25
-modified: 2025-05-14
+modified: 2025-05-26
 toc: false
 ---
 
@@ -17,7 +17,7 @@ Hobbyintresse av elektronik
 
 Erfarenhet av planering, design, implementation, felsökning, dokumentation, inköp och kunddialog.
 
-Lite mer specifikt:
+Lite mer specifika expertområden:
 
 - _Underliggande molninfrastruktur och datacenter_
   - _Datacenter co-lo_

@@ -127,11 +127,11 @@ params:
     stickyNavBar:
       enable: true
       showOnScrollUp: true
-    enableSeparator: false
+    enableSeparator: true
     menus:
       disableAbout: true
       disableExperience: true
-      disableEducation: false
+      disableEducation: true
       disableProjects: true
       disableAchievements: true
       disableContact: true
@@ -192,7 +192,7 @@ params:
           _För att kunna förbättra behöver man veta vad man har._<br>
           <br>Jag gör en grundlig genomgång av din miljö: fysisk inventering,
           analys av livscykelstatus, konfigurationsgranskning och trafikanalys.
-          Resultatet blir en tydlig nulägesbild – ett viktigt beslutsunderlag
+          <br>Resultatet blir en tydlig nulägesbild – ett viktigt beslutsunderlag
           för framtida förändringar.
       - title: "Felsökning"
         content: >-
